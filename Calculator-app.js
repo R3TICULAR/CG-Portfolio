@@ -1,6 +1,11 @@
-const Addnums = (a , b) => {
+const addNums = (a , b) => {
     let sum;
     sum = a+b;
+    return sum;
+}
+
+const subtractNums = (a,b) => {
+    let sum = a - b;
     return sum;
 }
 

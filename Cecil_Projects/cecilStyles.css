@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.project {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+.project h3 {
+  margin-top: 0;
+}
+.project a {
+  color: #007bff;
+  text-decoration: none;
+}

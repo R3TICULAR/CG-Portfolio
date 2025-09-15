@@ -1,13 +1,90 @@
 body {
-  background-color: aqua;
+  background: linear-gradient(135deg, #ff6b35, #f7931e, #ffd23f);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #2c1810;
 }
+
+header {
+  text-align: center;
+  background-color: #d32f2f;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 10px 0 0 0;
+  font-size: 1.2em;
+}
+
+.about {
+  background-color: #ff8f00;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .projects {
-  inline-size: 500px;
-  block-size: 100px;
-  background-color: brown;
+  margin-bottom: 30px;
+}
+
+.projects h2 {
+  text-align: center;
+  color: #d32f2f;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .project {
-  font-size: 10px;
-  font-family: cursive;
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 8px;
+  border: 3px solid #ff8f00;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project h3 {
+  color: #d32f2f;
+  margin-top: 0;
+}
+
+.project a {
+  background-color: #d32f2f;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.project a:hover {
+  background-color: #b71c1c;
+}
+
+footer {
+  text-align: center;
+  background-color: #d32f2f;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
 }
